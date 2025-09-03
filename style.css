@@ -64,16 +64,21 @@ span{
 }
 
 #apresentacao{
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    padding: 0 50px;
+    padding-top: 100px;
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    height: 600px;
 }
 
 #quote{
+    position: absolute;
+    top: 50%;
     width: 550px;
     text-align: justify;
     margin-right: 50px;
+    display: inline-block;
+    margin-bottom: 100px;
 }
 
 #quote1{
@@ -145,8 +150,10 @@ body{
 }
 
 #img{
+    position: absolute;
+    left: 60%;
+    display: inline-block;
     margin-top: 0px;
-    margin-left: 150px;
     width: 550px;
     height: 550px;
     background-position: center;
