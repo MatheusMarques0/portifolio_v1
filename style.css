@@ -174,7 +174,7 @@ body{
     margin-bottom: 140px;
 }
 
-h1{
+#Projetos > h1{
     font-weight: 500;
     font-size: 2em;
     padding-top: 30px;
@@ -251,13 +251,49 @@ h1{
 #certificados{
     width: 80vw;
     margin: auto;
-    text-align: center;
     margin-bottom: 200px;
 }
 
 #certificados > h1{
     color: white;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.sec{
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.desc{
+    position: relative;
+}
+
+.desc > h1{
+    background-color: var(--cor_fundo_foto);
+    margin-top: 20px;
+}
+
+.desc > h2{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.desc > p{
+    margin-top: 20px;
+}
+
+.res{
+    background-color: var(--cor_fundo_foto);
+    font-size: 1.5em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
 }
 
 .certi{
@@ -304,6 +340,12 @@ h1{
 
 #python{
     background-image: url(img/python.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#security{
+    background-image: url(img/ciber_sec.jpg);
     background-position: center;
     background-size: cover;
 }
