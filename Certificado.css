@@ -1,0 +1,107 @@
+#certificados{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+#certificados > h1{
+    font-weight: 500;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.sec{
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.desc{
+    position: relative;
+}
+
+.desc > h1{
+    background-color: var(--cor_fundo_foto);
+    margin-top: 20px;
+}
+
+.desc > h2{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.desc > p{
+    margin-top: 20px;
+}
+
+.res{
+    background-color: var(--cor_fundo_foto);
+    font-size: 1.5em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.certi{
+    border: 1px solid var(--cor_fundo_foto);
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.664);
+    position: relative;
+}
+
+.certi:hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.texto{
+    border: 1px solid var(--cor_fundo_foto);
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.664);
+    text-align: justify;
+}
+
+#css{
+    background-image: url(img/html5-css3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#javascript{
+    background-image: url(img/javascript.png);
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#python{
+    background-image: url(img/python.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#security{
+    background-image: url(img/ciber_sec.jpg);
+    background-position: center;
+    background-size: cover;
+}
