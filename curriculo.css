@@ -34,3 +34,7 @@ p{
     margin: auto;
     margin-top: 50px;
 }
+
+#foot > p{
+    text-align: center;
+}
