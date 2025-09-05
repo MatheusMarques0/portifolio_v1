@@ -75,9 +75,9 @@ a{
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 800px;
     width: 90vw;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 #quote{
